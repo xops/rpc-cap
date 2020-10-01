@@ -4,6 +4,9 @@
   "description": "A module for adding an object-capabilities system to any JSON-RPC API as middleware for json-rpc-engine",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "npm run build:typescript",
     "build:typescript": "rm -rf build && tsc",
